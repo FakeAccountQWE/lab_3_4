@@ -1,0 +1,28 @@
+﻿Build started 22.10.2012 15:24:07.
+     1>Project "E:\Documents\К учёбе\БГУИР\Учебные материалы\3 курс\5 семестр only\СПО ЭВМ\Лабы\3\Windows\lab3\lab3\lab3.vcxproj" on node 2 (Build target(s)).
+     1>ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 11.0\VC\bin\CL.exe /c /ZI /nologo /W3 /WX- /Od /Oy- /D WIN32 /D _DEBUG /D _CONSOLE /D _MBCS /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Debug\\" /Fd"Debug\vc110.pdb" /Gd /TP /analyze- /errorReport:prompt lab3.cpp
+         lab3.cpp
+     1>e:\documents\к учёбе\бгуир\учебные материалы\3 курс\5 семестр only\спо эвм\лабы\3\windows\lab3\lab3\lab3.cpp(91): warning C4996: 'std::basic_string<_Elem,_Traits,_Alloc>::copy': Function call with parameters that may be unsafe - this call relies on the caller to check that the passed values are correct. To disable this warning, use -D_SCL_SECURE_NO_WARNINGS. See documentation on how to use Visual C++ 'Checked Iterators'
+                 with
+                 [
+                     _Elem=char,
+                     _Traits=std::char_traits<char>,
+                     _Alloc=std::allocator<char>
+                 ]
+                 c:\program files (x86)\microsoft visual studio 11.0\vc\include\xstring(1777) : see declaration of 'std::basic_string<_Elem,_Traits,_Alloc>::copy'
+                 with
+                 [
+                     _Elem=char,
+                     _Traits=std::char_traits<char>,
+                     _Alloc=std::allocator<char>
+                 ]
+     1>e:\documents\к учёбе\бгуир\учебные материалы\3 курс\5 семестр only\спо эвм\лабы\3\windows\lab3\lab3\lab3.cpp(146): warning C4800: 'BOOL' : forcing value to bool 'true' or 'false' (performance warning)
+       Link:
+         C:\Program Files (x86)\Microsoft Visual Studio 11.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"E:\Documents\К учёбе\БГУИР\Учебные материалы\3 курс\5 семестр only\СПО ЭВМ\Лабы\3\Windows\lab3\Debug\lab3.exe" /INCREMENTAL /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"E:\Documents\К учёбе\БГУИР\Учебные материалы\3 курс\5 семестр only\СПО ЭВМ\Лабы\3\Windows\lab3\Debug\lab3.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"E:\Documents\К учёбе\БГУИР\Учебные материалы\3 курс\5 семестр only\СПО ЭВМ\Лабы\3\Windows\lab3\Debug\lab3.lib" /MACHINE:X86 Debug\lab3.obj
+         lab3.vcxproj -> E:\Documents\К учёбе\БГУИР\Учебные материалы\3 курс\5 семестр only\СПО ЭВМ\Лабы\3\Windows\lab3\Debug\lab3.exe
+     1>Done Building Project "E:\Documents\К учёбе\БГУИР\Учебные материалы\3 курс\5 семестр only\СПО ЭВМ\Лабы\3\Windows\lab3\lab3\lab3.vcxproj" (Build target(s)).
+
+Build succeeded.
+
+Time Elapsed 00:00:02.64
